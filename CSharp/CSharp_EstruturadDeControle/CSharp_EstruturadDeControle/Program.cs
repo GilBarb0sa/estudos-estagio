@@ -84,7 +84,6 @@ namespace CSharp_EstruturadDeControle
             Console.Clear(); // Limpa o console
             #endregion
 
-
             #region Estrutura de Repetição / For-While-Foreach
             Console.WriteLine("Digite uma sequência de números separados por espaço.");
             // 0 1 2 3 4 5 6 7 8 9 10
