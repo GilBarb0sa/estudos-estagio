@@ -1,0 +1,16 @@
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\bin\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.exe
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\bin\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.deps.json
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\bin\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\bin\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.runtimeconfig.dev.json
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\bin\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.dll
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\bin\Debug\net5.0\ref\CsharpDiretoAoPontoHelloWorld.dll
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\bin\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.pdb
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\obj\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\obj\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\obj\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\obj\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\obj\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\obj\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.dll
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\obj\Debug\net5.0\ref\CsharpDiretoAoPontoHelloWorld.dll
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\obj\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.pdb
+C:\Users\40357200896\Documents\Gilberto\Estudos\CSharp\CsharpDiretoAoPontoHelloWorld\CsharpDiretoAoPontoHelloWorld\obj\Debug\net5.0\CsharpDiretoAoPontoHelloWorld.genruntimeconfig.cache
