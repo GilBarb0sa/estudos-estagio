@@ -1,0 +1,16 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\bin\Debug\net5.0\CSharp_EstruturadDeControle.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\bin\Debug\net5.0\CSharp_EstruturadDeControle.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\bin\Debug\net5.0\CSharp_EstruturadDeControle.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\bin\Debug\net5.0\CSharp_EstruturadDeControle.runtimeconfig.dev.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\bin\Debug\net5.0\CSharp_EstruturadDeControle.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\bin\Debug\net5.0\ref\CSharp_EstruturadDeControle.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\bin\Debug\net5.0\CSharp_EstruturadDeControle.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\obj\Debug\net5.0\CSharp_EstruturadDeControle.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\obj\Debug\net5.0\CSharp_EstruturadDeControle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\obj\Debug\net5.0\CSharp_EstruturadDeControle.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\obj\Debug\net5.0\CSharp_EstruturadDeControle.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\obj\Debug\net5.0\CSharp_EstruturadDeControle.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\obj\Debug\net5.0\CSharp_EstruturadDeControle.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\obj\Debug\net5.0\ref\CSharp_EstruturadDeControle.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\obj\Debug\net5.0\CSharp_EstruturadDeControle.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_EstruturadDeControle\CSharp_EstruturadDeControle\obj\Debug\net5.0\CSharp_EstruturadDeControle.genruntimeconfig.cache

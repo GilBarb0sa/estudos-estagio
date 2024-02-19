@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_EstruturadDeControle", "CSharp_EstruturadDeControle\CSharp_EstruturadDeControle.csproj", "{FB9894A4-A69E-48CC-A7D6-C0B53DEF19BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB9894A4-A69E-48CC-A7D6-C0B53DEF19BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9894A4-A69E-48CC-A7D6-C0B53DEF19BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9894A4-A69E-48CC-A7D6-C0B53DEF19BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9894A4-A69E-48CC-A7D6-C0B53DEF19BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33CF0285-282B-44C9-84BB-4AE01C9982B6}
+	EndGlobalSection
+EndGlobal
