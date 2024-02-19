@@ -1,0 +1,16 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\bin\Debug\net5.0\CSharp_TrabalhandoComStrings.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\bin\Debug\net5.0\CSharp_TrabalhandoComStrings.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\bin\Debug\net5.0\CSharp_TrabalhandoComStrings.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\bin\Debug\net5.0\CSharp_TrabalhandoComStrings.runtimeconfig.dev.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\bin\Debug\net5.0\CSharp_TrabalhandoComStrings.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\bin\Debug\net5.0\ref\CSharp_TrabalhandoComStrings.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\bin\Debug\net5.0\CSharp_TrabalhandoComStrings.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\obj\Debug\net5.0\CSharp_TrabalhandoComStrings.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\obj\Debug\net5.0\CSharp_TrabalhandoComStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\obj\Debug\net5.0\CSharp_TrabalhandoComStrings.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\obj\Debug\net5.0\CSharp_TrabalhandoComStrings.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\obj\Debug\net5.0\CSharp_TrabalhandoComStrings.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\obj\Debug\net5.0\CSharp_TrabalhandoComStrings.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\obj\Debug\net5.0\ref\CSharp_TrabalhandoComStrings.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\obj\Debug\net5.0\CSharp_TrabalhandoComStrings.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComStrings\CSharp_TrabalhandoComStrings\obj\Debug\net5.0\CSharp_TrabalhandoComStrings.genruntimeconfig.cache
