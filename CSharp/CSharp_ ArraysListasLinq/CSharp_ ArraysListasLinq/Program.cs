@@ -87,7 +87,6 @@ namespace CSharp__ArraysListasLinq
             var max = students.Max(s => s.Grade); // Valor maximo da nota da turma
             var count1 = students.Count; // O tamanho da lista de alunos
 
-
             #endregion
 
             Console.ReadKey();
