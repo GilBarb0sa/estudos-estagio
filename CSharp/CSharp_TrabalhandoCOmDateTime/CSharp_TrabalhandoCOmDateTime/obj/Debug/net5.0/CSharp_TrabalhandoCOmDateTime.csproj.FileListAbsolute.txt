@@ -1,0 +1,16 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\bin\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\bin\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\bin\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\bin\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.runtimeconfig.dev.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\bin\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\bin\Debug\net5.0\ref\CSharp_TrabalhandoCOmDateTime.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\bin\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\obj\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\obj\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\obj\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\obj\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\obj\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\obj\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\obj\Debug\net5.0\ref\CSharp_TrabalhandoCOmDateTime.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\obj\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoCOmDateTime\CSharp_TrabalhandoCOmDateTime\obj\Debug\net5.0\CSharp_TrabalhandoCOmDateTime.genruntimeconfig.cache
