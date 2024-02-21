@@ -14,7 +14,7 @@ namespace CSharp_DebugandoAplicacoes
 
             foreach (var numero in numeros) //laço de repetição
             {
-                var numeroInt = int.Parse(numero); // conerte um a um em inteiro
+                var numeroInt = int.Parse(numero); // converte um número string em um número inteiro
 
                 var aoQuadrado = Math.Pow(numeroInt, 2);
 
