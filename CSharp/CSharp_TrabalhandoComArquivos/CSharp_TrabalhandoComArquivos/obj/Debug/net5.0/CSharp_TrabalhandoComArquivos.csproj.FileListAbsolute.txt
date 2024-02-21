@@ -1,0 +1,16 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\obj\Debug\net5.0\CSharp_TrabalhandoComArquivos.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\obj\Debug\net5.0\CSharp_TrabalhandoComArquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\obj\Debug\net5.0\CSharp_TrabalhandoComArquivos.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\obj\Debug\net5.0\CSharp_TrabalhandoComArquivos.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\obj\Debug\net5.0\CSharp_TrabalhandoComArquivos.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\bin\Debug\net5.0\CSharp_TrabalhandoComArquivos.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\bin\Debug\net5.0\CSharp_TrabalhandoComArquivos.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\bin\Debug\net5.0\CSharp_TrabalhandoComArquivos.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\bin\Debug\net5.0\CSharp_TrabalhandoComArquivos.runtimeconfig.dev.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\bin\Debug\net5.0\CSharp_TrabalhandoComArquivos.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\bin\Debug\net5.0\ref\CSharp_TrabalhandoComArquivos.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\bin\Debug\net5.0\CSharp_TrabalhandoComArquivos.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\obj\Debug\net5.0\CSharp_TrabalhandoComArquivos.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\obj\Debug\net5.0\ref\CSharp_TrabalhandoComArquivos.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\obj\Debug\net5.0\CSharp_TrabalhandoComArquivos.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TrabalhandoComArquivos\CSharp_TrabalhandoComArquivos\obj\Debug\net5.0\CSharp_TrabalhandoComArquivos.genruntimeconfig.cache
