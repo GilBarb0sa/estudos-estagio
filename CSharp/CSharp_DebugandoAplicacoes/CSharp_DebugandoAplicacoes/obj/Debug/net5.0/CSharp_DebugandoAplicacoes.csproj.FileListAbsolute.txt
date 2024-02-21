@@ -1,0 +1,16 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\bin\Debug\net5.0\CSharp_DebugandoAplicacoes.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\bin\Debug\net5.0\CSharp_DebugandoAplicacoes.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\bin\Debug\net5.0\CSharp_DebugandoAplicacoes.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\bin\Debug\net5.0\CSharp_DebugandoAplicacoes.runtimeconfig.dev.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\bin\Debug\net5.0\CSharp_DebugandoAplicacoes.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\bin\Debug\net5.0\ref\CSharp_DebugandoAplicacoes.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\bin\Debug\net5.0\CSharp_DebugandoAplicacoes.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\obj\Debug\net5.0\CSharp_DebugandoAplicacoes.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\obj\Debug\net5.0\CSharp_DebugandoAplicacoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\obj\Debug\net5.0\CSharp_DebugandoAplicacoes.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\obj\Debug\net5.0\CSharp_DebugandoAplicacoes.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\obj\Debug\net5.0\CSharp_DebugandoAplicacoes.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\obj\Debug\net5.0\CSharp_DebugandoAplicacoes.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\obj\Debug\net5.0\ref\CSharp_DebugandoAplicacoes.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\obj\Debug\net5.0\CSharp_DebugandoAplicacoes.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_DebugandoAplicacoes\CSharp_DebugandoAplicacoes\obj\Debug\net5.0\CSharp_DebugandoAplicacoes.genruntimeconfig.cache
