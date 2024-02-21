@@ -1,0 +1,16 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\obj\Debug\net5.0\CSharp_POO.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\obj\Debug\net5.0\CSharp_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\obj\Debug\net5.0\CSharp_POO.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\obj\Debug\net5.0\CSharp_POO.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\obj\Debug\net5.0\CSharp_POO.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\bin\Debug\net5.0\CSharp_POO.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\bin\Debug\net5.0\CSharp_POO.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\bin\Debug\net5.0\CSharp_POO.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\bin\Debug\net5.0\CSharp_POO.runtimeconfig.dev.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\bin\Debug\net5.0\CSharp_POO.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\bin\Debug\net5.0\ref\CSharp_POO.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\bin\Debug\net5.0\CSharp_POO.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\obj\Debug\net5.0\CSharp_POO.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\obj\Debug\net5.0\ref\CSharp_POO.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\obj\Debug\net5.0\CSharp_POO.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_POO\CSharp_POO\obj\Debug\net5.0\CSharp_POO.genruntimeconfig.cache
