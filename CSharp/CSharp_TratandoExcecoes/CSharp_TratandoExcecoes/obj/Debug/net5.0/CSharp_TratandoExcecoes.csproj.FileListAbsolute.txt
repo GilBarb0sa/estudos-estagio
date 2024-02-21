@@ -1,0 +1,16 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\bin\Debug\net5.0\CSharp_TratandoExcecoes.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\bin\Debug\net5.0\CSharp_TratandoExcecoes.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\bin\Debug\net5.0\CSharp_TratandoExcecoes.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\bin\Debug\net5.0\CSharp_TratandoExcecoes.runtimeconfig.dev.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\bin\Debug\net5.0\CSharp_TratandoExcecoes.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\bin\Debug\net5.0\ref\CSharp_TratandoExcecoes.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\bin\Debug\net5.0\CSharp_TratandoExcecoes.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\obj\Debug\net5.0\CSharp_TratandoExcecoes.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\obj\Debug\net5.0\CSharp_TratandoExcecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\obj\Debug\net5.0\CSharp_TratandoExcecoes.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\obj\Debug\net5.0\CSharp_TratandoExcecoes.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\obj\Debug\net5.0\CSharp_TratandoExcecoes.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\obj\Debug\net5.0\CSharp_TratandoExcecoes.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\obj\Debug\net5.0\ref\CSharp_TratandoExcecoes.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\obj\Debug\net5.0\CSharp_TratandoExcecoes.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\CSharp_TratandoExcecoes\CSharp_TratandoExcecoes\obj\Debug\net5.0\CSharp_TratandoExcecoes.genruntimeconfig.cache
