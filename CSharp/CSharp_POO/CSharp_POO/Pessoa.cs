@@ -16,7 +16,7 @@ namespace CSharp_POO
         public string Documento { get; protected set; }
         public DateTime DataNascimento { get; set; }
 
-        public virtual void SeApresentar()
+        public virtual void SeApresentar()  //Imprimi na tela e Sobrescreve
         {
             Console.WriteLine($"Olá, meu nome é {Nome}, Documento {Documento}, Data de Nascimento: {DataNascimento}");
         }
