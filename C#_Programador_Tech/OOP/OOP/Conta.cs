@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-    public class Conta
-    {
+    public abstract class Conta : IConta
+    { 
         public Conta(int numero, double limite) //O construtor tem que ter sempre o nome da class
         {
             this.Numero = numero;
@@ -35,7 +35,7 @@ namespace OOP
             this.Saldo += valor; //+= incrementa o valor que esta vindo do metodo, acrescenta o valor no Saldo
         }
 
-        public bool Saca(double valor) //bool : true or false Se deu certo ou não a realização do saque neste metodo
+        public virtual bool Saca(double valor) //bool : true or false Se deu certo ou não a realização do saque neste metodo / Virtual - Permite qualquer classe que herda dele, pode ser sobrscrito!
         {
             double saldoDisponivel = this.ConsultaSaldoDisponivel(); 
             if(valor > saldoDisponivel)

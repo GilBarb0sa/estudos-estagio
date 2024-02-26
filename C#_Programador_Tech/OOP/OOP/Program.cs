@@ -9,54 +9,95 @@ namespace OOP
             Console.WriteLine("Aprendendo OOP!");
 
             AnalistaTI analistaTI = new AnalistaTI();
-            Gerente gerente = new Gerente();
-            GerenteDeAgencia gerenteDeAgencia = new GerenteDeAgencia();
-            GerenteTI gerenteTI = new GerenteTI();
 
-            analistaTI.Nome = "Acaciano Neves";
-            analistaTI.Salario = 3000;
-
-            Console.WriteLine("Salario do Analista de TI é: " + analistaTI.Salario);
+            analistaTI.AdicionarNome("Acaciano", "Neves");
+            analistaTI.AdicionarSalarioPadrao(1000);
 
             analistaTI.Reajustar();
 
-            Console.WriteLine("Salario do Analista de TI reajustado é: " + analistaTI.Salario);
-
-            Console.WriteLine("________________________________________________________________________");
-
-            gerente.Nome = "Amanda Neves";
-            gerente.Salario = 8000;
-
-            Console.WriteLine("Salario do Gerente é: " + gerente.Salario);
-
-            gerente.Reajustar();
-
-            Console.WriteLine("Salario do Gerente reajustado é: " + gerente.Salario);
-
-            Console.WriteLine("________________________________________________________________________");
+            Console.WriteLine("Salário é : " + analistaTI.Salario);
 
 
-            gerenteDeAgencia.Nome = "Freire Neves";
-            gerenteDeAgencia.Salario = 10000;
 
-            Console.WriteLine("Salario do Gerente é: " + gerenteDeAgencia.Salario);
 
-            gerenteDeAgencia.Reajustar();
 
-            Console.WriteLine("Salario do Gerente reajustado é: " + gerenteDeAgencia.Salario);
 
-            Console.WriteLine("________________________________________________________________________");
 
-            gerenteTI.Nome = "Ronaldo Neves";
-            gerenteTI.Salario = 20000;
 
-            Console.WriteLine("Salario do Gerente é: " + gerenteTI.Salario);
 
-            gerenteTI.Reajustar();
 
-            Console.WriteLine("Salario do Gerente reajustado é: " + gerenteTI.Salario);
+            //ContaPoupanca contaPoupanca = new ContaPoupanca(111, 0);
 
-            Console.WriteLine("________________________________________________________________________");
+            //contaPoupanca.Deposita(100);
+            //contaPoupanca.Saca(10);
+            //double saltoPoupanca = contaPoupanca.ConsultaSaldoDisponivel();
+
+            //Console.WriteLine("Saldo Poupança é: " + saltoPoupanca);
+
+
+            //ContaCorrente contaCorrente = new ContaCorrente(111, 100);
+
+            //contaCorrente.Deposita(100);
+            //contaCorrente.Saca(10);
+            //double saltoCorrente = contaCorrente.ConsultaSaldoDisponivel();
+
+            //Console.WriteLine("Saldo Corrente é: " + saltoCorrente);
+
+
+
+
+
+
+
+            //AnalistaTI analistaTI = new AnalistaTI();
+            //Gerente gerente = new Gerente();
+            //GerenteDeAgencia gerenteDeAgencia = new GerenteDeAgencia();
+            //GerenteTI gerenteTI = new GerenteTI();
+
+            //analistaTI.Nome = "Acaciano Neves";
+            //analistaTI.Salario = 3000;
+
+            //Console.WriteLine("Salario do Analista de TI é: " + analistaTI.Salario);
+
+            //analistaTI.Reajustar();
+
+            //Console.WriteLine("Salario do Analista de TI reajustado é: " + analistaTI.Salario);
+
+            //Console.WriteLine("________________________________________________________________________");
+
+            //gerente.Nome = "Amanda Neves";
+            //gerente.Salario = 8000;
+
+            //Console.WriteLine("Salario do Gerente é: " + gerente.Salario);
+
+            //gerente.Reajustar();
+
+            //Console.WriteLine("Salario do Gerente reajustado é: " + gerente.Salario);
+
+            //Console.WriteLine("________________________________________________________________________");
+
+
+            //gerenteDeAgencia.Nome = "Freire Neves";
+            //gerenteDeAgencia.Salario = 10000;
+
+            //Console.WriteLine("Salario do Gerente é: " + gerenteDeAgencia.Salario);
+
+            //gerenteDeAgencia.Reajustar();
+
+            //Console.WriteLine("Salario do Gerente reajustado é: " + gerenteDeAgencia.Salario);
+
+            //Console.WriteLine("________________________________________________________________________");
+
+            //gerenteTI.Nome = "Ronaldo Neves";
+            //gerenteTI.Salario = 20000;
+
+            //Console.WriteLine("Salario do Gerente é: " + gerenteTI.Salario);
+
+            //gerenteTI.Reajustar();
+
+            //Console.WriteLine("Salario do Gerente reajustado é: " + gerenteTI.Salario);
+
+            //Console.WriteLine("________________________________________________________________________");
 
 
 
