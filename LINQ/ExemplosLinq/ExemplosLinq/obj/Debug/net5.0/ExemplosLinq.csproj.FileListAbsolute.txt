@@ -1,0 +1,16 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\bin\Debug\net5.0\ExemplosLinq.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\bin\Debug\net5.0\ExemplosLinq.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\bin\Debug\net5.0\ExemplosLinq.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\bin\Debug\net5.0\ExemplosLinq.runtimeconfig.dev.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\bin\Debug\net5.0\ExemplosLinq.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\bin\Debug\net5.0\ref\ExemplosLinq.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\bin\Debug\net5.0\ExemplosLinq.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\obj\Debug\net5.0\ExemplosLinq.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\obj\Debug\net5.0\ExemplosLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\obj\Debug\net5.0\ExemplosLinq.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\obj\Debug\net5.0\ExemplosLinq.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\obj\Debug\net5.0\ExemplosLinq.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\obj\Debug\net5.0\ExemplosLinq.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\obj\Debug\net5.0\ref\ExemplosLinq.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\obj\Debug\net5.0\ExemplosLinq.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\LINQ\ExemplosLinq\ExemplosLinq\obj\Debug\net5.0\ExemplosLinq.genruntimeconfig.cache
