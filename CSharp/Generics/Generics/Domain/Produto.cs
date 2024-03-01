@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace Generics.Domain
 {
-    public class Produto
+    public class Produto : Entity
     {
         public Produto(string nome, decimal valor)
         {
-            Id = Guid.NewGuid();
             Nome = nome;
             Valor = valor;
         }
 
-        public Guid Id { get; set; } // Para gerar um construtor automatico " Ctrl + . "
+        // Para gerar um construtor automatico " Ctrl + . "
         public string Nome { get; set; }
         public decimal Valor { get; set; }
 
@@ -25,7 +24,7 @@ namespace Generics.Domain
 
         }
 
-        public override bool Equals(object? obj) //esta recendo um objeto
+        public override bool Equals(object? obj) //esta recebendo um objeto
         {
             var produto = obj as Produto;
             if (produto == null)
@@ -33,10 +32,5 @@ namespace Generics.Domain
 
             return produto.Id == Id;
         }
-    }
-
-    public class Categoria
-    {
-
     }
 }
