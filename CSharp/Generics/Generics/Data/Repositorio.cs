@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Generics.Data
 {
     //tornando a classe generica, recebendo um tipo, que pode ser qualquer coisa
-    public class Repositorio<TEntity> where TEntity : Entity //Aqui é feito uma restrição no TEntity
+    public class Repositorio<TEntity> : IRepositorio<TEntity> where TEntity : Entity //Aqui é feito uma restrição no TEntity
     {
         private List<TEntity> _lista;
 

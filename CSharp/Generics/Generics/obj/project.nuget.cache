@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zqp6FWcQgN0gtf15DT5WcxVN4vTiOoWFt3Tlz+cvECjPz2zKvqMLEuiwZm4Bp4iVifIH/WVlXCNgomakuzRrMg==",
+  "dgSpecHash": "1RJBXNVa7/NB0cL3QzjJ3Jz/8MIVvtb2oDdjVvJKsW9hcnxLZXZuZYfOA4SqW6+6UKe82587RhszFdGBN2AliA==",
   "success": true,
   "projectFilePath": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\CSharp\\Generics\\Generics\\Generics.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\40357200896\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\40357200896\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -6,7 +6,8 @@ namespace Generics
 {
     public static class ImprirDados
     {
-        public static void ImprimirDados<TEntity>(List<TEntity> entidades) where TEntity : Entity //Aqui é feito uma restrição no TEntity //Aqui imprimi os produtos!
+        public static void ImprimirDados<TEntity>(this List<TEntity> entidades) //O this tranforma em um extensão
+            where TEntity : Entity //Aqui é feito uma restrição no TEntity //Aqui imprimi os produtos!
         {
             if (entidades.Count == 0)
             {

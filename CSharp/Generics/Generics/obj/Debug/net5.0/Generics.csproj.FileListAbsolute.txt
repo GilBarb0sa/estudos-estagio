@@ -14,3 +14,6 @@ C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\G
 C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\Generics\Generics\obj\Debug\net5.0\ref\Generics.dll
 C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\Generics\Generics\obj\Debug\net5.0\Generics.pdb
 C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\Generics\Generics\obj\Debug\net5.0\Generics.genruntimeconfig.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\Generics\Generics\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\Generics\Generics\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\CSharp\Generics\Generics\obj\Debug\net5.0\Generics.csproj.CopyComplete
