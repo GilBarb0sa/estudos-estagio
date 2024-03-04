@@ -32,3 +32,6 @@ ServiceProvider ConfigurarInjecaoDeDependencia()
 
     return serviceCollection.BuildServiceProvider();
 }
+
+/*O que foi feito aqui: Criamos uma coleção de serviços, onde informo qual interface eu quero e qual instancia ele vai retornar e configurei
+No program foi naquele serviço e foi falado, onde retorna a instancia de quem implementa esta interface e me retorna um produto repositorio/categoria
