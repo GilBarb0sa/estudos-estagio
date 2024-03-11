@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\Primeiro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2776380-4493-4823-8A6F-1072A09D89F8}|OlaMundo\\OlaMundo.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\primeiro\\olamundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2776380-4493-4823-8A6F-1072A09D89F8}|OlaMundo\\OlaMundo.csproj|solutionrelative:olamundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2776380-4493-4823-8A6F-1072A09D89F8}|OlaMundo\\OlaMundo.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\primeiro\\olamundo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2776380-4493-4823-8A6F-1072A09D89F8}|OlaMundo\\OlaMundo.csproj|solutionrelative:olamundo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\Primeiro\\OlaMundo\\Program.cs",
+              "RelativeDocumentMoniker": "OlaMundo\\Program.cs",
+              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\Primeiro\\OlaMundo\\Program.cs",
+              "RelativeToolTip": "OlaMundo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:43:55.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\Primeiro\\OlaMundo\\Form1.cs",
+              "RelativeDocumentMoniker": "OlaMundo\\Form1.cs",
+              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\Primeiro\\OlaMundo\\Form1.cs [Design]",
+              "RelativeToolTip": "OlaMundo\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:34:05.455Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
