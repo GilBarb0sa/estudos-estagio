@@ -1,0 +1,15 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\bin\Debug\net7.0\ConsoleAppDotNet.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\bin\Debug\net7.0\ConsoleAppDotNet.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\bin\Debug\net7.0\ConsoleAppDotNet.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\bin\Debug\net7.0\ConsoleAppDotNet.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\bin\Debug\net7.0\ConsoleAppDotNet.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\ConsoleAppDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\ConsoleAppDotNet.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\ConsoleAppDotNet.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\ConsoleAppDotNet.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\ConsoleAppDotNet.sourcelink.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\ConsoleAppDotNet.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\refint\ConsoleAppDotNet.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\ConsoleAppDotNet.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\ConsoleAppDotNet.genruntimeconfig.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppDotNet\obj\Debug\net7.0\ref\ConsoleAppDotNet.dll

@@ -1,0 +1,15 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\bin\Debug\net7.0\ConsoleAppToLevel.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\bin\Debug\net7.0\ConsoleAppToLevel.deps.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\bin\Debug\net7.0\ConsoleAppToLevel.runtimeconfig.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\bin\Debug\net7.0\ConsoleAppToLevel.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\bin\Debug\net7.0\ConsoleAppToLevel.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\ConsoleAppToLevel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\ConsoleAppToLevel.AssemblyInfoInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\ConsoleAppToLevel.AssemblyInfo.cs
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\ConsoleAppToLevel.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\ConsoleAppToLevel.sourcelink.json
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\ConsoleAppToLevel.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\refint\ConsoleAppToLevel.dll
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\ConsoleAppToLevel.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\ConsoleAppToLevel.genruntimeconfig.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Primeiro\ConsoleAppToLevel\obj\Debug\net7.0\ref\ConsoleAppToLevel.dll
