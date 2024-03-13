@@ -44,7 +44,7 @@ namespace Conversao
 
             #endregion
 
-            #region
+            #region Class Convert
 
             string texto = Convert.ToString(2500);
 
