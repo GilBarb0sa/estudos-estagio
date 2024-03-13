@@ -1,0 +1,7 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Conversao\Conversao\bin\Debug\Conversao.exe.config
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Conversao\Conversao\bin\Debug\Conversao.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Conversao\Conversao\bin\Debug\Conversao.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Conversao\Conversao\obj\Debug\Conversao.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Conversao\Conversao\obj\Debug\Conversao.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Conversao\Conversao\obj\Debug\Conversao.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Conversao\Conversao\obj\Debug\Conversao.pdb
