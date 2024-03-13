@@ -1,0 +1,7 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\InverterNomes\InverterNomes\bin\Debug\InverterNomes.exe.config
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\InverterNomes\InverterNomes\bin\Debug\InverterNomes.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\InverterNomes\InverterNomes\bin\Debug\InverterNomes.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\InverterNomes\InverterNomes\obj\Debug\InverterNomes.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\InverterNomes\InverterNomes\obj\Debug\InverterNomes.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\InverterNomes\InverterNomes\obj\Debug\InverterNomes.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\InverterNomes\InverterNomes\obj\Debug\InverterNomes.pdb
