@@ -1,0 +1,7 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Operadores\Operadores\bin\Debug\Operadores.exe.config
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Operadores\Operadores\bin\Debug\Operadores.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Operadores\Operadores\bin\Debug\Operadores.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Operadores\Operadores\obj\Debug\Operadores.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Operadores\Operadores\obj\Debug\Operadores.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Operadores\Operadores\obj\Debug\Operadores.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Operadores\Operadores\obj\Debug\Operadores.pdb
