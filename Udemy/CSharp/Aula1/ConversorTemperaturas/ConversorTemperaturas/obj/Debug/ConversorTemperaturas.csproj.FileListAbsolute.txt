@@ -1,0 +1,7 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\ConversorTemperaturas\ConversorTemperaturas\bin\Debug\ConversorTemperaturas.exe.config
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\ConversorTemperaturas\ConversorTemperaturas\bin\Debug\ConversorTemperaturas.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\ConversorTemperaturas\ConversorTemperaturas\bin\Debug\ConversorTemperaturas.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\ConversorTemperaturas\ConversorTemperaturas\obj\Debug\ConversorTemperaturas.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\ConversorTemperaturas\ConversorTemperaturas\obj\Debug\ConversorTemperaturas.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\ConversorTemperaturas\ConversorTemperaturas\obj\Debug\ConversorTemperaturas.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\ConversorTemperaturas\ConversorTemperaturas\obj\Debug\ConversorTemperaturas.pdb

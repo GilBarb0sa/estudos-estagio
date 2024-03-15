@@ -85,17 +85,17 @@ namespace Operadores
 
             #endregion
 
-            #region
+            #region Lógicos
 
-            bool res1 = 100 >= 50;
-            bool res2 = 60 == 50;
+            //bool res1 = 100 >= 50;
+            //bool res2 = 60 == 50;
 
-            bool final = res1 && res2;
-            bool final2 = (100 >= 50) || (60 == 50);
+            //bool final = res1 && res2;
+            //bool final2 = (100 >= 50) || (60 == 50);
 
             #endregion
 
-            Console.WriteLine(final);
+            Console.WriteLine();
             Console.ReadKey();
         }
     }
