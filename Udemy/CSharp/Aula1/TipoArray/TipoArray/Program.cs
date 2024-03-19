@@ -73,7 +73,7 @@ namespace TipoArray
             {
                 for(int coluna = 0; coluna < 3; coluna++)
                 {
-                    Console.Write("#1. Posição [" +linha + "][" + coluna + "]: ");
+                    Console.Write("#1. Posição [" + linha + "][" + coluna + "]: ");
                     matriz1[linha,coluna] = int.Parse(Console.ReadLine());
                 }
             }
@@ -87,7 +87,7 @@ namespace TipoArray
                 for (int coluna = 0; coluna < 2; coluna++)
                 {
                     Console.Write("#2. Posição [" + linha + "][" + coluna + "]: ");
-                    matriz1[linha, coluna] = int.Parse(Console.ReadLine());
+                    matriz2[linha, coluna] = int.Parse(Console.ReadLine());
                 }
             }
 
