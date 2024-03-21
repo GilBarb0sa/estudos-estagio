@@ -1,0 +1,7 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
