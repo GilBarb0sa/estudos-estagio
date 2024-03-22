@@ -1,0 +1,7 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Ciclos\Ciclos\bin\Debug\Ciclos.exe.config
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Ciclos\Ciclos\bin\Debug\Ciclos.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Ciclos\Ciclos\bin\Debug\Ciclos.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Ciclos\Ciclos\obj\Debug\Ciclos.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Ciclos\Ciclos\obj\Debug\Ciclos.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Ciclos\Ciclos\obj\Debug\Ciclos.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\Ciclos\Ciclos\obj\Debug\Ciclos.pdb
