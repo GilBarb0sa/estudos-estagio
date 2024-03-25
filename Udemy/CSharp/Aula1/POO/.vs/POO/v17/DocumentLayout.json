@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07C7097F-7EEE-4ABC-9122-E9F0F5851104}|TipoDelegate\\TipoDelegate.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\poo\\tipodelegate\\matematica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C7097F-7EEE-4ABC-9122-E9F0F5851104}|TipoDelegate\\TipoDelegate.csproj|solutionrelative:tipodelegate\\matematica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C7097F-7EEE-4ABC-9122-E9F0F5851104}|TipoDelegate\\TipoDelegate.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\poo\\tipodelegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C7097F-7EEE-4ABC-9122-E9F0F5851104}|TipoDelegate\\TipoDelegate.csproj|solutionrelative:tipodelegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Matematica.cs",
+              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\TipoDelegate\\Matematica.cs",
+              "RelativeDocumentMoniker": "TipoDelegate\\Matematica.cs",
+              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\TipoDelegate\\Matematica.cs",
+              "RelativeToolTip": "TipoDelegate\\Matematica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T15:44:26.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\TipoDelegate\\Program.cs",
+              "RelativeDocumentMoniker": "TipoDelegate\\Program.cs",
+              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\TipoDelegate\\Program.cs",
+              "RelativeToolTip": "TipoDelegate\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T15:41:45.104Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
