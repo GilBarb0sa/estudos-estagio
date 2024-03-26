@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07C7097F-7EEE-4ABC-9122-E9F0F5851104}|TipoDelegate\\TipoDelegate.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\poo\\tipodelegate\\matematica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07C7097F-7EEE-4ABC-9122-E9F0F5851104}|TipoDelegate\\TipoDelegate.csproj|solutionrelative:tipodelegate\\matematica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76C7B68E-A8F4-4ECF-818F-268A9A44A2AB}|Heranca\\Heranca.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\poo\\heranca\\bicicleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C7B68E-A8F4-4ECF-818F-268A9A44A2AB}|Heranca\\Heranca.csproj|solutionrelative:heranca\\bicicleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07C7097F-7EEE-4ABC-9122-E9F0F5851104}|TipoDelegate\\TipoDelegate.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\poo\\tipodelegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07C7097F-7EEE-4ABC-9122-E9F0F5851104}|TipoDelegate\\TipoDelegate.csproj|solutionrelative:tipodelegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76C7B68E-A8F4-4ECF-818F-268A9A44A2AB}|Heranca\\Heranca.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\poo\\heranca\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C7B68E-A8F4-4ECF-818F-268A9A44A2AB}|Heranca\\Heranca.csproj|solutionrelative:heranca\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C7B68E-A8F4-4ECF-818F-268A9A44A2AB}|Heranca\\Heranca.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\poo\\heranca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C7B68E-A8F4-4ECF-818F-268A9A44A2AB}|Heranca\\Heranca.csproj|solutionrelative:heranca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C7B68E-A8F4-4ECF-818F-268A9A44A2AB}|Heranca\\Heranca.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\poo\\heranca\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C7B68E-A8F4-4ECF-818F-268A9A44A2AB}|Heranca\\Heranca.csproj|solutionrelative:heranca\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Matematica.cs",
-              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\TipoDelegate\\Matematica.cs",
-              "RelativeDocumentMoniker": "TipoDelegate\\Matematica.cs",
-              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\TipoDelegate\\Matematica.cs",
-              "RelativeToolTip": "TipoDelegate\\Matematica.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\Heranca\\Veiculo.cs",
+              "RelativeDocumentMoniker": "Heranca\\Veiculo.cs",
+              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\Heranca\\Veiculo.cs",
+              "RelativeToolTip": "Heranca\\Veiculo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T15:44:26.796Z",
+              "WhenOpened": "2024-03-26T15:42:14.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bicicleta.cs",
+              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\Heranca\\Bicicleta.cs",
+              "RelativeDocumentMoniker": "Heranca\\Bicicleta.cs",
+              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\Heranca\\Bicicleta.cs",
+              "RelativeToolTip": "Heranca\\Bicicleta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:39:20.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\TipoDelegate\\Program.cs",
-              "RelativeDocumentMoniker": "TipoDelegate\\Program.cs",
-              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\TipoDelegate\\Program.cs",
-              "RelativeToolTip": "TipoDelegate\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\Heranca\\Carro.cs",
+              "RelativeDocumentMoniker": "Heranca\\Carro.cs",
+              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\Heranca\\Carro.cs",
+              "RelativeToolTip": "Heranca\\Carro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T15:41:45.104Z",
+              "WhenOpened": "2024-03-26T15:33:48.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\Heranca\\Program.cs",
+              "RelativeDocumentMoniker": "Heranca\\Program.cs",
+              "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\POO\\Heranca\\Program.cs",
+              "RelativeToolTip": "Heranca\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:32:52.339Z",
               "EditorCaption": ""
             }
           ]
