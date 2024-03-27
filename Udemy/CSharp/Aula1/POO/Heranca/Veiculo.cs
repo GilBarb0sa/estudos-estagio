@@ -2,18 +2,14 @@
 
 namespace Heranca
 {
-     class Veiculo
+     abstract class Veiculo   //Classes abstratas não poder ser criados novos objetos
     {
         public string Cor { get; set; }
         public string Marca { get; set; }
 
-        public void Acelerar()
-        {
-            Console.WriteLine("Acelerou");
-        }
-        public void Parar()
-        {
-            Console.WriteLine("Parou");
-        }
+        public abstract void Acelerar();
+
+        public abstract void Parar();
+        
     }
 }
