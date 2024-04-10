@@ -1,0 +1,10 @@
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\bin\Debug\WimanipularString.exe.config
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\bin\Debug\WimanipularString.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\bin\Debug\WimanipularString.pdb
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\obj\Debug\ManipularString.csproj.AssemblyReference.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\obj\Debug\WimanipularString.Form1.resources
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\obj\Debug\WimanipularString.Properties.Resources.resources
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\obj\Debug\ManipularString.csproj.GenerateResource.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\obj\Debug\ManipularString.csproj.CoreCompileInputs.cache
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\obj\Debug\WimanipularString.exe
+C:\Users\40357200896\Documents\Gilberto\estudos_estagio\estudos-estagio\Udemy\CSharp\Aula1\WimanipularString\WimanipularString\obj\Debug\WimanipularString.pdb
