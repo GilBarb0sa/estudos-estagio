@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\SistemaCadastro\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{781CAE2B-825D-4882-9475-66E33F6DE97F}|SistemaCadastro\\SistemaCadastro.csproj|C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\SistemaCadastro\\sistemacadastro\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{781CAE2B-825D-4882-9475-66E33F6DE97F}|SistemaCadastro\\SistemaCadastro.csproj|solutionrelative:sistemacadastro\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{781CAE2B-825D-4882-9475-66E33F6DE97F}|SistemaCadastro\\SistemaCadastro.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\sistemacadastro\\sistemacadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{781CAE2B-825D-4882-9475-66E33F6DE97F}|SistemaCadastro\\SistemaCadastro.csproj|solutionrelative:sistemacadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{781CAE2B-825D-4882-9475-66E33F6DE97F}|SistemaCadastro\\SistemaCadastro.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\sistemacadastro\\sistemacadastro\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{781CAE2B-825D-4882-9475-66E33F6DE97F}|SistemaCadastro\\SistemaCadastro.csproj|solutionrelative:sistemacadastro\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{781CAE2B-825D-4882-9475-66E33F6DE97F}|SistemaCadastro\\SistemaCadastro.csproj|c:\\users\\40357200896\\documents\\gilberto\\estudos_estagio\\estudos-estagio\\udemy\\csharp\\aula1\\sistemacadastro\\sistemacadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{781CAE2B-825D-4882-9475-66E33F6DE97F}|SistemaCadastro\\SistemaCadastro.csproj|C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\SistemaCadastro\\sistemacadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{781CAE2B-825D-4882-9475-66E33F6DE97F}|SistemaCadastro\\SistemaCadastro.csproj|solutionrelative:sistemacadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,34 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Pessoa.cs",
               "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\SistemaCadastro\\SistemaCadastro\\Pessoa.cs",
               "RelativeDocumentMoniker": "SistemaCadastro\\Pessoa.cs",
               "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\SistemaCadastro\\SistemaCadastro\\Pessoa.cs",
               "RelativeToolTip": "SistemaCadastro\\Pessoa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T14:03:39.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\SistemaCadastro\\SistemaCadastro\\Form1.cs",
               "RelativeDocumentMoniker": "SistemaCadastro\\Form1.cs",
               "ToolTip": "C:\\Users\\40357200896\\Documents\\Gilberto\\estudos_estagio\\estudos-estagio\\Udemy\\CSharp\\Aula1\\SistemaCadastro\\SistemaCadastro\\Form1.cs",
               "RelativeToolTip": "SistemaCadastro\\Form1.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwGYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHwAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T13:40:06.189Z",
               "EditorCaption": ""

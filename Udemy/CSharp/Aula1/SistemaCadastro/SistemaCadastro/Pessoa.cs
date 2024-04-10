@@ -2,8 +2,6 @@
 {
      class Pessoa
     {
-        internal static Pessoa p;
-
         public string Nome { get; set; } //propriedades
         public string DataNascimento { get; set; }
         public string EstadoCivil { get; set; }
