@@ -37,7 +37,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(775, 269);
+            this.label1.Size = new System.Drawing.Size(775, 369);
             this.label1.TabIndex = 0;
             // 
             // btnExecutar
