@@ -58,19 +58,53 @@ namespace WimanipularString
 
             #endregion
 
-            #region
+            #region Length / Substring
 
-            string nome = "Gilberto Barbosa";
-            //int tam = nome.Length;
-            //label1.Text = "O nome " + nome + " contém " + tam + " letras";
+            //string nome = "Gilberto Barbosa";
+            ////int tam = nome.Length;
+            ////label1.Text = "O nome " + nome + " contém " + tam + " letras";
 
-            //for (int i = 0; i <nome.Length; i++) //Apresenta o nome conforme seu comprimento
+            ////for (int i = 0; i <nome.Length; i++) //Apresenta o nome conforme seu comprimento
+            ////{
+            ////    label1.Text += nome[i] + "\n";
+            ////}
+
+            //string parte = nome.Substring(nome.IndexOf(" ")); //Aprensenta em tela a string a partir do espaço " " que foi declara.
+            //label1.Text = parte;
+
+            #endregion
+
+            #region Split
+
+            //string nomes = "Gilberto,Islaine,Juliana,Matheus,Bruno,Rafael,Marineuza";
+            //char[] separador = { ',' };  //Cria uma array  de caractere que será utilizado para separar as strings
+            //string[] resultado = nomes.Split(separador); //Cria uma array onde existe o separador de strings
+
+            //foreach (string nome in resultado) //Inseri o resultado numa lista de nome, pulando uma linha
             //{
-            //    label1.Text += nome[i] + "\n";
+            //    label1.Text += nome + "\n";
             //}
 
-            string parte = nome.Substring(nome.IndexOf(" ")); //Aprensenta em tela a string a partir do espaço " " que foi declara.
-            label1.Text = parte;
+            #endregion
+
+            #region StartWith / EndsWith
+
+            //string nome = "Gilberto";
+            //// bool res = nome.StartsWith("gil", StringComparison.OrdinalIgnoreCase); //Ignora o case sensitive do c#
+            //bool res = nome.EndsWith("RTO", StringComparison.OrdinalIgnoreCase);
+            //if (res)
+            //{
+            //    label1.Text = "Positivo";
+            //} 
+            //else
+            //{
+            //    label1.Text = "Negativo";
+            //}
+
+            #endregion
+
+            #region
+
 
             #endregion
         }
