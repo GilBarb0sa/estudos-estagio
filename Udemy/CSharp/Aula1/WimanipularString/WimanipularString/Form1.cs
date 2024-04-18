@@ -103,8 +103,47 @@ namespace WimanipularString
 
             #endregion
 
+            #region Trim / TrimStart / TrimEnd
+
+            //string mensagem = "   ----___   000 Ola Gilberto ----   ";
+            //char[] c = { ' ', '-', '_', '0' };  //Array de caracteres que serão retirado ao imprimir no label1
+            //string nova = mensagem.Trim(c); // TrimStart ele elimina os caracteres do começo e o TrimEnd o do final
+
+            //label1.Text = ">"  + nova + "<";
+
+            #endregion
+
+            #region Compareto / Equals
+
+            //string nome = "Gilberto";
+            //string nome2 = "gilberto";
+
+            //if(nome.Equals(nome2, StringComparison.OrdinalIgnoreCase))    //Compara as strings
+            //{
+            //    label1.Text = "Positivo";
+            //}
+            //else
+            //{
+            //    label1.Text = "Negativo";
+            //}
+
+            //label1.Text = nome.CompareTo(nome2).ToString();   //Classifica a ordem alfabetica das strings
+
+            #endregion
+
             #region
 
+            decimal valor = 19.95m;
+            int temp = 32;
+            //string s = String.Format("O valor do produto é {0:C2} e a temperatura é {1}", valor, temp);
+
+            //string s = String.Format("Hoje é {0:D} e são {0:T}", DateTime.Now); //Entrega a data e a hora, podendo ser mais simples, colocando o d ou t minusculo.
+
+            //string s = $"O valor do produto é {valor:C2} e a temperatura é {temp}";
+
+            string s = $"Data: {DateTime.Now:D} e hora {DateTime.Now:T}";
+
+            label1.Text = s;
 
             #endregion
         }
