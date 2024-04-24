@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ManipularNumeros
@@ -47,8 +40,8 @@ namespace ManipularNumeros
             //lblResultado.Text = Convert.ToString(num, 8); // Converte para OctaDecimal, 10 = Decimal e 16 = Hexadecimal
             #endregion
 
-            #region
-            double pi = Math.PI;
+            #region Classe Math
+            double pi = Math.PI;  //Pode usar o pi.ToString("#.2"); para entregar 2 casas decimais
             double E = Math.E;
             double seno = Math.Sin(3);
             double conseno = Math.Cos(3);
@@ -57,7 +50,7 @@ namespace ManipularNumeros
             double aredonda = Math.Round(158.60);
             double inteiro = Math.Truncate(32.34523); //entrega só o número inteiro
             double floor = Math.Floor(52.99); //arredonda para baixo
-            double ceil = Math.Ceiling(52.02);
+            double ceil = Math.Ceiling(52.02); //arredonda para cima
 
             lblResultado.Text = ceil.ToString();
             #endregion
