@@ -28,13 +28,12 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
 			this.lblTitulo = new System.Windows.Forms.Label();
 			this.btnSegunda = new System.Windows.Forms.Button();
 			this.btnSegundaFormThread = new System.Windows.Forms.Button();
 			this.menuBar = new System.Windows.Forms.MenuStrip();
 			this.menuFile = new System.Windows.Forms.ToolStripMenuItem();
-			this.mFileNovo = new System.Windows.Forms.ToolStripMenuItem();
-			this.mFileAbrir = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
 			this.mFileSair = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuHelp = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,6 +42,8 @@
 			this.mHelpSobreVer = new System.Windows.Forms.ToolStripMenuItem();
 			this.comboMenu = new System.Windows.Forms.ToolStripComboBox();
 			this.mPesquisar = new System.Windows.Forms.ToolStripTextBox();
+			this.mFileNovo = new System.Windows.Forms.ToolStripMenuItem();
+			this.mFileAbrir = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuBar.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -80,7 +81,7 @@
 			// 
 			// menuBar
 			// 
-			this.menuBar.BackColor = System.Drawing.SystemColors.Control;
+			this.menuBar.BackColor = System.Drawing.Color.DarkSeaGreen;
 			this.menuBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuFile,
             this.menuHelp,
@@ -94,28 +95,16 @@
 			// 
 			// menuFile
 			// 
+			this.menuFile.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
 			this.menuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mFileNovo,
             this.mFileAbrir,
             this.toolStripSeparator1,
             this.mFileSair});
+			this.menuFile.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.menuFile.Name = "menuFile";
-			this.menuFile.Size = new System.Drawing.Size(37, 23);
+			this.menuFile.Size = new System.Drawing.Size(44, 23);
 			this.menuFile.Text = "File";
-			// 
-			// mFileNovo
-			// 
-			this.mFileNovo.Name = "mFileNovo";
-			this.mFileNovo.Size = new System.Drawing.Size(180, 22);
-			this.mFileNovo.Text = "Novo";
-			this.mFileNovo.Click += new System.EventHandler(this.mFileNovo_Click);
-			// 
-			// mFileAbrir
-			// 
-			this.mFileAbrir.Name = "mFileAbrir";
-			this.mFileAbrir.Size = new System.Drawing.Size(180, 22);
-			this.mFileAbrir.Text = "Abrir";
-			this.mFileAbrir.Click += new System.EventHandler(this.mFileAbrir_Click);
 			// 
 			// toolStripSeparator1
 			// 
@@ -124,7 +113,12 @@
 			// 
 			// mFileSair
 			// 
+			this.mFileSair.BackColor = System.Drawing.Color.GreenYellow;
+			this.mFileSair.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.mFileSair.ForeColor = System.Drawing.SystemColors.HotTrack;
+			this.mFileSair.Image = global::Formularios.Properties.Resources.sair;
 			this.mFileSair.Name = "mFileSair";
+			this.mFileSair.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.S)));
 			this.mFileSair.Size = new System.Drawing.Size(180, 22);
 			this.mFileSair.Text = "Sair";
 			this.mFileSair.Click += new System.EventHandler(this.mFileSair_Click);
@@ -133,8 +127,9 @@
 			// 
 			this.menuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mHelpSobre});
+			this.menuHelp.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.menuHelp.Name = "menuHelp";
-			this.menuHelp.Size = new System.Drawing.Size(44, 23);
+			this.menuHelp.Size = new System.Drawing.Size(49, 23);
 			this.menuHelp.Text = "Help";
 			// 
 			// mHelpSobre
@@ -142,6 +137,7 @@
 			this.mHelpSobre.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mHelpSobreDev,
             this.mHelpSobreVer});
+			this.mHelpSobre.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.mHelpSobre.Name = "mHelpSobre";
 			this.mHelpSobre.Size = new System.Drawing.Size(180, 22);
 			this.mHelpSobre.Text = "Sobre";
@@ -149,14 +145,14 @@
 			// mHelpSobreDev
 			// 
 			this.mHelpSobreDev.Name = "mHelpSobreDev";
-			this.mHelpSobreDev.Size = new System.Drawing.Size(180, 22);
+			this.mHelpSobreDev.Size = new System.Drawing.Size(152, 22);
 			this.mHelpSobreDev.Text = "Desenvolvedor";
 			this.mHelpSobreDev.Click += new System.EventHandler(this.mHelpSobreDev_Click);
 			// 
 			// mHelpSobreVer
 			// 
 			this.mHelpSobreVer.Name = "mHelpSobreVer";
-			this.mHelpSobreVer.Size = new System.Drawing.Size(180, 22);
+			this.mHelpSobreVer.Size = new System.Drawing.Size(152, 22);
 			this.mHelpSobreVer.Text = "Versão";
 			this.mHelpSobreVer.Click += new System.EventHandler(this.mHelpSobreVer_Click);
 			// 
@@ -177,6 +173,29 @@
 			this.mPesquisar.Size = new System.Drawing.Size(200, 23);
 			this.mPesquisar.KeyUp += new System.Windows.Forms.KeyEventHandler(this.mPesquisar_KeyUp);
 			// 
+			// mFileNovo
+			// 
+			this.mFileNovo.BackColor = System.Drawing.Color.GreenYellow;
+			this.mFileNovo.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.mFileNovo.Image = global::Formularios.Properties.Resources.novo_documento;
+			this.mFileNovo.Name = "mFileNovo";
+			this.mFileNovo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+			this.mFileNovo.Size = new System.Drawing.Size(180, 22);
+			this.mFileNovo.Text = "Novo";
+			this.mFileNovo.Click += new System.EventHandler(this.mFileNovo_Click);
+			// 
+			// mFileAbrir
+			// 
+			this.mFileAbrir.BackColor = System.Drawing.Color.GreenYellow;
+			this.mFileAbrir.Enabled = false;
+			this.mFileAbrir.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.mFileAbrir.Image = global::Formularios.Properties.Resources.abrir;
+			this.mFileAbrir.Name = "mFileAbrir";
+			this.mFileAbrir.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+			this.mFileAbrir.Size = new System.Drawing.Size(180, 22);
+			this.mFileAbrir.Text = "Abrir";
+			this.mFileAbrir.Click += new System.EventHandler(this.mFileAbrir_Click);
+			// 
 			// FormMain
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -186,6 +205,7 @@
 			this.Controls.Add(this.btnSegunda);
 			this.Controls.Add(this.lblTitulo);
 			this.Controls.Add(this.menuBar);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MainMenuStrip = this.menuBar;
 			this.Name = "FormMain";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
