@@ -1,15 +1,16 @@
 ﻿using System;
+using System.Data.SqlClient;
 using System.IO;
 using System.Windows.Forms;
 
 //Sql Server CE    *Não foi possivel a instalação do SqlServerCE na Prefeitura, então não foi feito as referencias.*
-//using System.Data.SqlServerCE;
+using System.Data.SqlServerCE;
 
 //Sqlite           *Não foi feito as transferencias de pastas de referencias com as dll, pois nõa possivel o aesso devido a limitação das máquinas da prefeitura.
-//using System.Data.SQLite;
+using System.Data.SQLite;
 
 //MySQL            *Não foi possivel a utlização do MySqLite devido a limitação de downloads e acessos das máquinas da PG*
-//using MySql.Data.MySqlClient;
+using MySql.Data.MySqlClient;
 
 namespace BaseDados
 {
@@ -23,9 +24,8 @@ namespace BaseDados
         private void btnConectar_Click(object sender, EventArgs e)
         {
 
-            #region SQL Sercer CE
-            //string baseDados = Application.StartupPath + @"\db\dbSQLServer.sdf";  //Retorna a pasta do executavel não incluindo o nome da pasta do executavel
-
+            #region SQL Server CE
+            //string baseDados = Application.StartupPath + @"\db\DBSQLServer.sdf"; //string que contem o caminho da base de dados
             //string strConection = @"DataSource = " + baseDados + "; Password = '12345' ";  //Endereço onde vai ficar a pasta da base de dados
 
             //SqlCeEngine db = SqlCeEngine(strConection);
@@ -57,8 +57,7 @@ namespace BaseDados
 
             #region SQLite
 
-            //string baseDados = Application.StartupPath + @"\db\dbSQLLite.db";  //Retorna a pasta do executavel não incluindo o nome da pasta do executavel
-
+            //string baseDados = Application.StartupPath + @"\db\DBSQLLite.db";  //string que contem o caminho da base de dados
             //string strConection = @"Data Source = " + baseDados + "; Version = 3";  //Endereço onde vai ficar a pasta da base de dados
 
             //if (!File.Exist(baseDados))  //Se o baseDados não existe faça a criação de uma nova baseDados..
@@ -87,11 +86,10 @@ namespace BaseDados
             //Observação a pequenas diferenças com SQL Server CE
             #endregion
 
-
             #region MySQL
 
-            string strConnection = "server=127.0.0.1;User Id=root;password=saskaroth";  //String de conexão  com base de dados não criada
-            //string strConnection1 = "server=127.0.0.1;User Id=root;database=curso_db;password=saskaroth";  //String de conexão com base de dados definida
+            string strConnection = "server=127.0.0.1;User Id=root;password=saskaroth";  //string que contem o caminho da base de dados
+            //string strConnection2 = "server=127.0.0.1;User Id=root;database=curso_db;password=saskaroth";  //String de conexão com base de dados definida
 
             MySQLConnection conexao = new MySQLConnection(strConnection);
             //conexao.ConnectionString = strConnection;   //É passado o strConnection no construtor acima!
@@ -120,6 +118,195 @@ namespace BaseDados
                 conexao.Close();  //Fecha a conexão que tinha sido definida
             }
 
+        }
+        #endregion
+
+        private void btnCriarTabela_Click(object sender, EventArgs e)
+        {
+            #region SQLServer
+            //string basedados = Application.StartupPath + @"\db\DBSQLerver.sdf";   //string que contem o caminho da base de dados
+            //string strConection = @"DataSource = " + baseDados + "; Password = '12345' ";  //string de conexão  
+
+            //SqlCeConnection conexao = new SqlCeConnection(strConection);   //é feito a conexão
+
+            //try  //Try catch ajuda a execução não travar caso de algum erro
+            //{
+            //    conexao.Open();  //Abri a conexão
+
+            //    SqlCeCommand comando = new SqlCeCommand();
+            //    comando.Connection = conexao;  //o comando irá trabalhar com base na conexão
+
+            //    comando.CommandText = "CREATE TABLE pessoas ( id INT NOT NULL PRIMARY KEY, nome NVARCHAR(50), email NVARCHAR(50))";   //criar o comando da tabela;
+            //    comando.ExecuteNonQuery();  //Executa o comando!
+
+            //    labelResultado.Text = "Tabela Criada SqlServerCe";
+            //    comando.Dispose();
+            //}
+            //catch (Exception ex) 
+            //{
+            //    labelResultado.Text = ex.Message;
+            //}
+            //finally
+            //{
+            //    conexao.Close();  //fecha a conexão
+            //}
+            #endregion
+
+            #region SQLite
+            //string baseDados = Application.StartupPath + @"\db\DBSQLLite.db";   //string que contem o caminho da base de dados
+            //string strConection = @"Data Source = " + baseDados + "; Version = 3";  //string de conexão
+
+            //SQLiteConnection conexao = new SQLiteConnection(strConection);   //é feito a conexão
+
+            //try   //Try catch ajuda a execução não travar caso de algum erro
+            //{
+            //    conexao.Open();  //Abri a conexão
+
+            //    SQLiteCommand comando = new SQLiteCommand();
+            //    comando.Connection = conexao;  //o comando irá trabalhar com base na conexão
+
+            //    comando.CommandText = "CREATE TABLE pessoas ( id INT NOT NULL PRIMARY KEY, nome NVARCHAR(50), email NVARCHAR(50))";   //criar o comando da tabela;
+            //    comando.ExecuteNonQuery();  //Executa o comando!
+
+            //    labelResultado.Text = "Tabela Criada SQLite";
+            //    comando.Dispose();
+            //}
+            //catch (Exception ex)
+            //{
+            //    labelResultado.Text = ex.Message;
+            //}
+            //finally
+            //{
+            //    conexao.Close();  //fecha a conexão
+            //}
+            #endregion
+
+            #region MySQL
+            string strConnection2 = "server=127.0.0.1;User Id=root;database=curso_db;password=saskaroth";  //string de conexão
+            MySqlConnection conexao = new MySqlConnection(strConnection);   //é feito a conexão
+
+            try   //Try catch ajuda a execução não travar caso de algum erro
+            {
+                conexao.Open();  //Abri a conexão
+
+                MySqlCommand comando = new MySqlCommand();
+                comando.Connection = conexao;  //o comando irá trabalhar com base na conexão
+
+                comando.CommandText = "CREATE TABLE pessoas ( id INT NOT NULL, nome VARCHAR(50), email VARCHAR(50), PRIMARY KETY(id))";   //criar o comando da tabela;
+                comando.ExecuteNonQuery();  //Executa o comando!
+
+                labelResultado.Text = "Tabela Criada MySql";
+                comando.Dispose();
+            }
+            catch (Exception ex)
+            {
+                labelResultado.Text = ex.Message;
+            }
+            finally
+            {
+                conexao.Close();  //fecha a conexão
+            }
+            #endregion
+        }
+
+        private void btnInserir_Click(object sender, EventArgs e)
+        {
+            #region SQLServer
+            //string basedados = Application.StartupPath + @"\db\DBSQLerver.sdf";  //string que contem o caminho da base de dados
+            //string strConection = @"DataSource = " + baseDados + "; Password = '12345' ";  //string de conexão
+
+            //SqlCeConnection conexao = new SqlCeConnection(strConection);   //é feito a conexão com a base de dados
+
+            //try  //Try catch ajuda a execução não travar caso de algum erro
+            //{
+            //    conexao.Open();  //Abri a conexão com base de dados
+
+            //    SqlCeCommand comando = new SqlCeCommand();
+            //    comando.Connection = conexao;  //o comando irá trabalhar com a base na conexão
+
+            //    int id = new Random(DateTime.Now.Millisecond).Next(0,1000);  //gera um numero inteiro aleatorio entre 0 e 1000
+            //    string nome = textNome.Text; 
+            //    string email = textEmail.Text;
+
+            //    comando.CommandText = "INSERT INTO pessoas VALUES ("+ id + ", '" + nome + "', '" + email + "')";  //Comando Consulta  SQL
+            //    comando.ExecuteNonQuery();  //Executa o comando!
+
+            //    labelResultado.Text = "Registro inserido SqlServerCe";
+            //    comando.Dispose();  //Libera recurso
+            //}
+            //catch (Exception ex)
+            //{
+            //    labelResultado.Text = ex.Message;  // exibe msgm de erro
+            //}
+            //finally
+            //{
+            //    conexao.Close();  //fecha a conexão se der certo ou não
+            //}
+            #endregion
+
+            #region SQLite
+            //string baseDados = Application.StartupPath + @"\db\DBSQLLite.db"; //string que contem o caminho da base de dados
+            //string strConection = @"Data Source = " + baseDados + "; Version = 3";  //string de conexão
+
+            //SQLiteConnection conexao = new SQLiteConnection(strConection);   //é feito a conexão com a base de dados
+
+            //try  //Try catch ajuda a execução não travar caso de algum erro
+            //{
+            //    conexao.Open();  //Abri a conexão com base de dados
+
+            //    SQLiteCommand comando = new SQLiteCommand();
+            //    comando.Connection = conexao;  //o comando irá trabalhar com a base na conexão
+
+            //    int id = new Random(DateTime.Now.Millisecond).Next(0,1000);  //gera um numero inteiro aleatorio entre 0 e 1000
+            //    string nome = textNome.Text;
+            //    string email = textEmail.Text;
+
+            //    comando.CommandText = "INSERT INTO pessoas VALUES (" + id + ", '" + nome + "', '" + email + "')";  //Comando Consulta SQL
+            //    comando.ExecuteNonQuery();  //Executa o comando!
+
+            //    labelResultado.Text = "Registro inserido SQLite";
+            //    comando.Dispose();  //Libera recurso
+            //}
+            //catch (Exception ex)
+            //{
+            //    labelResultado.Text = ex.Message;  // exibe msgm de erro
+            //}
+            //finally
+            //{
+            //    conexao.Close();  //fecha a conexão se der certo ou não
+            //}
+            #endregion
+
+            #region MySQL
+            string strConnection2 = "server=127.0.0.1;User Id=root;database=curso_db;password=saskaroth"; //string que contem o caminho da base de dados
+            MySqlConnection conexao = new MySqlConnection(strConnection);    //é feito a conexão com a base de dados
+
+            try  //Try catch ajuda a execução não travar caso de algum erro
+            {
+                conexao.Open();  //Abri a conexão com base de dados
+
+                MySqlCommand comando = new MySqlCommand();
+                comando.Connection = conexao;  //o comando irá trabalhar com a base na conexão
+
+                int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);  //gera um numero inteiro aleatorio entre 0 e 1000
+                string nome = textNome.Text;
+                string email = textEmail.Text;
+
+                comando.CommandText = "INSERT INTO pessoas VALUES (" + id + ", '" + nome + "', '" + email + "')";  //Comando Consulta SQL
+                comando.ExecuteNonQuery();  //Executa o comando!
+
+                labelResultado.Text = "Registro inserido MySql";
+                comando.Dispose();  //Libera recurso
+            }
+            catch (Exception ex)
+            {
+                labelResultado.Text = ex.Message;  // exibe msgm de erro
+            }
+            finally
+            {
+                conexao.Close();  //fecha a conexão se der certo ou não
+            }
+            #endregion
         }
     }
 }

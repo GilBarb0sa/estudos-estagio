@@ -38,7 +38,7 @@
             this.textNome = new System.Windows.Forms.TextBox();
             this.textEmail = new System.Windows.Forms.TextBox();
             this.btnConectar = new System.Windows.Forms.Button();
-            this.btnCriarTabel = new System.Windows.Forms.Button();
+            this.btnCriarTabela = new System.Windows.Forms.Button();
             this.btnInserir = new System.Windows.Forms.Button();
             this.btnProcurar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
@@ -134,15 +134,16 @@
             this.btnConectar.UseVisualStyleBackColor = true;
             this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
             // 
-            // btnCriarTabel
+            // btnCriarTabela
             // 
-            this.btnCriarTabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCriarTabel.Location = new System.Drawing.Point(579, 245);
-            this.btnCriarTabel.Name = "btnCriarTabel";
-            this.btnCriarTabel.Size = new System.Drawing.Size(113, 28);
-            this.btnCriarTabel.TabIndex = 7;
-            this.btnCriarTabel.Text = "Criar Tabela";
-            this.btnCriarTabel.UseVisualStyleBackColor = true;
+            this.btnCriarTabela.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCriarTabela.Location = new System.Drawing.Point(579, 245);
+            this.btnCriarTabela.Name = "btnCriarTabela";
+            this.btnCriarTabela.Size = new System.Drawing.Size(113, 28);
+            this.btnCriarTabela.TabIndex = 7;
+            this.btnCriarTabela.Text = "Criar Tabela";
+            this.btnCriarTabela.UseVisualStyleBackColor = true;
+            this.btnCriarTabela.Click += new System.EventHandler(this.btnCriarTabela_Click);
             // 
             // btnInserir
             // 
@@ -153,6 +154,7 @@
             this.btnInserir.TabIndex = 8;
             this.btnInserir.Text = "Inserir";
             this.btnInserir.UseVisualStyleBackColor = true;
+            this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
             // 
             // btnProcurar
             // 
@@ -193,7 +195,7 @@
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnProcurar);
             this.Controls.Add(this.btnInserir);
-            this.Controls.Add(this.btnCriarTabel);
+            this.Controls.Add(this.btnCriarTabela);
             this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.textEmail);
             this.Controls.Add(this.textNome);
@@ -202,7 +204,7 @@
             this.Controls.Add(this.lista);
             this.Controls.Add(this.labelResultado);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -224,7 +226,7 @@
         private System.Windows.Forms.TextBox textNome;
         private System.Windows.Forms.TextBox textEmail;
         private System.Windows.Forms.Button btnConectar;
-        private System.Windows.Forms.Button btnCriarTabel;
+        private System.Windows.Forms.Button btnCriarTabela;
         private System.Windows.Forms.Button btnInserir;
         private System.Windows.Forms.Button btnProcurar;
         private System.Windows.Forms.Button btnExcluir;
