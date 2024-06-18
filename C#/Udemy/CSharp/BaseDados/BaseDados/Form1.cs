@@ -438,5 +438,212 @@ namespace BaseDados
 
 			#endregion
 		}
+
+		private void btnExcluir_Click(object sender, EventArgs e)
+		{
+			#region SQLServer
+			//string basedados = Application.StartupPath + @"\db\DBSQLerver.sdf";  //string que contem o caminho da base de dados
+			//string strConection = @"DataSource = " + baseDados + "; Password = '12345' ";  //string de conexão
+
+			//SqlCeConnection conexao = new SqlCeConnection(strConection);   //objeto de conexão é feito a conexão com a base de dados
+
+			//try  //Try catch ajuda a execução não travar caso de algum erro
+			//{
+			//	conexao.Open();  //Abri a conexão com base de dados
+
+			//	SqlCeCommand comando = new SqlCeCommand();
+			//	comando.Connection = conexao;  //o comando irá trabalhar com a base na conexão
+
+			//	int id = (int)lista.SelectedRows[0].Cells[0].Value;  //recupera o id para utilizar na exclusão abaixo
+
+			//	comando.CommandText = "DELETE FROM pessoas WHERE id = '" + id + "'";  //O caminho que será excluido no banco de dados
+
+			//	comando.ExecuteNonQuery();  //Executa o comando!
+
+			//	labelResultado.Text = "Registro excluido Sql Server Ce";
+			//	comando.Dispose();  //Libera recurso
+			//}
+			//catch (Exception ex)
+			//{
+			//	labelResultado.Text = ex.Message;  // exibe msgm de erro
+			//}
+			//finally
+			//{
+			//	conexao.Close();  //fecha a conexão se der certo ou não
+			//}
+			#endregion
+
+			#region SQLite
+			//string baseDados = Application.StartupPath + @"\db\DBSQLLite.db"; //string que contem o caminho da base de dados
+			//string strConection = @"Data Source = " + baseDados + "; Version = 3";  //string de conexão
+
+			//SQLiteConnection conexao = new SQLiteConnection(strConection);   //é feito a conexão com a base de dados
+
+			//try  //Try catch ajuda a execução não travar caso de algum erro
+			//{
+			//	conexao.Open();  //Abri a conexão com base de dados
+
+			//	SQLiteCommand comando = new SQLiteCommand();
+
+			//	comando.Connection = conexao;  //o comando irá trabalhar com a base na conexão
+
+			//	int id = (int)lista.SelectedRows[0].Cells[0].Value;  //recupera o id para utilizar na exclusão abaixo
+
+			//	comando.CommandText = "DELETE FROM pessoas WHERE id = '" + id + "'";  //O caminho que será excluido no banco de dados
+
+			//	comando.ExecuteNonQuery();  //Executa o comando!
+
+			//	labelResultado.Text = "Registro excluido SQLite";
+			//	comando.Dispose();  //Libera recurso
+			//}
+			//catch (Exception ex)
+			//{
+			//	labelResultado.Text = ex.Message;  // exibe msgm de erro
+			//}
+			//finally
+			//{
+			//	conexao.Close();  //fecha a conexão se der certo ou não
+			//}
+			#endregion
+
+			#region MySQL
+			string strConnection2 = "server=127.0.0.1;User Id=root;database=curso_db;password=saskaroth"; //string que contem o caminho da base de dados
+			MySqlConnection conexao = new MySqlConnection(strConnection);    //é feito a conexão com a base de dados
+
+			try  //Try catch ajuda a execução não travar caso de algum erro
+			{
+				conexao.Open();  //Abri a conexão com base de dados
+
+				MySqlCommand comando = new MySqlCommand();
+				comando.Connection = conexao;  //o comando irá trabalhar com a base na conexão
+
+				int id = (int)lista.SelectedRows[0].Cells[0].Value;  //recupera o id para utilizar na exclusão abaixo
+
+				comando.CommandText = "DELETE FROM pessoas WHERE id = '" + id + "'";  //O caminho que será excluido no banco de dados
+				comando.ExecuteNonQuery();  //Executa o comando!
+
+				labelResultado.Text = "Registro excluido MySql";
+				comando.Dispose();  //Libera recurso
+			}
+			catch (Exception ex)
+			{
+				labelResultado.Text = ex.Message;  // exibe msgm de erro
+			}
+			finally
+			{
+				conexao.Close();  //fecha a conexão se der certo ou não
+			}
+			#endregion
+		}
+
+		private void btnEditar_Click(object sender, EventArgs e)
+		{
+			#region SQLServer
+			//string basedados = Application.StartupPath + @"\db\DBSQLerver.sdf";  //string que contem o caminho da base de dados
+			//string strConection = @"DataSource = " + baseDados + "; Password = '12345' ";  //string de conexão
+
+			//SqlCeConnection conexao = new SqlCeConnection(strConection);   //objeto de conexão é feito a conexão com a base de dados
+
+			//try  //Try catch ajuda a execução não travar caso de algum erro
+			//{
+			//	conexao.Open();  //Abri a conexão com base de dados
+
+			//	SqlCeCommand comando = new SqlCeCommand(); //Cria o comando que será passado para ser executado
+			//	comando.Connection = conexao;  //o comando irá trabalhar com a base na conexão
+
+			//	int id = (int)lista.SelectedRows[0].Cells[0].Value;  //recupera o id para utilizar na exclusão abaixo
+			//	string nome = txtNome.Text;
+			//	string email = txtEmail.Text;
+
+			//	string query = "UPDATE pessoas SET nome = '" + nome + "', email = '" + email + "' WHERE id LIKE '" + id + "'";  //Os campos que será alterado
+
+			//	comando.CommandText = query;  //A consulta que será alterado no banco de dados
+
+			//	comando.ExecuteNonQuery();  //Executa o comando!
+
+			//	labelResultado.Text = "Registro alterado  Sql Server Ce";
+			//	comando.Dispose();  //Libera recurso
+			//}
+			//catch (Exception ex)
+			//{
+			//	labelResultado.Text = ex.Message;  // exibe msgm de erro
+			//}
+			//finally
+			//{
+			//	conexao.Close();  //fecha a conexão se der certo ou não
+			//}
+			#endregion
+
+			#region SQLite
+			//string baseDados = Application.StartupPath + @"\db\DBSQLLite.db"; //string que contem o caminho da base de dados
+			//string strConection = @"Data Source = " + baseDados + "; Version = 3";  //string de conexão
+
+			//SQLiteConnection conexao = new SQLiteConnection(strConection);   //é feito a conexão com a base de dados
+
+			//try  //Try catch ajuda a execução não travar caso de algum erro
+			//{
+			//	conexao.Open();  //Abri a conexão com base de dados
+
+			//	SQLiteCommand comando = new SQLiteCommand();
+
+			//	comando.Connection = conexao;  //o comando irá trabalhar com a base na conexão
+
+			//	int id = (int)lista.SelectedRows[0].Cells[0].Value;  //recupera o id para utilizar na exclusão abaixo
+			//	string nome = txtNome.Text;
+			//	string email = txtEmail.Text;
+
+			//	string query = "UPDATE pessoas SET nome = '" + nome + "', email = '" + email + "' WHERE id LIKE '" + id + "'";  //Os campos que será alterado
+
+			//	comando.CommandText = query;  //O caminho que será excluido no banco de dados
+
+			//	comando.ExecuteNonQuery();  //Executa o comando!
+
+			//	labelResultado.Text = "Registro alterado SQLite";
+			//	comando.Dispose();  //Libera recurso
+			//}
+			//catch (Exception ex)
+			//{
+			//	labelResultado.Text = ex.Message;  // exibe msgm de erro
+			//}
+			//finally
+			//{
+			//	conexao.Close();  //fecha a conexão se der certo ou não
+			//}
+			#endregion
+
+			#region MySQL
+			string strConnection2 = "server=127.0.0.1;User Id=root;database=curso_db;password=saskaroth"; //string que contem o caminho da base de dados
+			MySqlConnection conexao = new MySqlConnection(strConnection);    //é feito a conexão com a base de dados
+
+			try  //Try catch ajuda a execução não travar caso de algum erro
+			{
+				conexao.Open();  //Abri a conexão com base de dados
+
+				MySqlCommand comando = new MySqlCommand();
+				comando.Connection = conexao;  //o comando irá trabalhar com a base na conexão
+
+				int id = (int)lista.SelectedRows[0].Cells[0].Value;  //recupera o id para utilizar na exclusão abaixo
+				string nome = txtNome.Text;
+				string email = txtEmail.Text;
+
+				string query = "UPDATE pessoas SET nome = '" + nome + "', email = '" + email + "' WHERE id LIKE '" + id + "'";  //Os campos que será alterado
+
+				comando.CommandText = query;  //O caminho que será excluido no banco de dados
+
+				comando.ExecuteNonQuery();  //Executa o comando!
+
+				labelResultado.Text = "Registro alterado MySql";
+				comando.Dispose();  //Libera recurso
+			}
+			catch (Exception ex)
+			{
+				labelResultado.Text = ex.Message;  // exibe msgm de erro
+			}
+			finally
+			{
+				conexao.Close();  //fecha a conexão se der certo ou não
+			}
+			#endregion
+		}
 	}
 }
