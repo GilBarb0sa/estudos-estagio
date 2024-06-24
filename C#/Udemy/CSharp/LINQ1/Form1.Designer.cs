@@ -32,6 +32,9 @@
 			this.txtConsulta = new System.Windows.Forms.TextBox();
 			this.btnExecutar = new System.Windows.Forms.Button();
 			this.btnWhere = new System.Windows.Forms.Button();
+			this.btnOrderBy = new System.Windows.Forms.Button();
+			this.btnGroupBy = new System.Windows.Forms.Button();
+			this.btnAgregacao = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lista
@@ -72,11 +75,44 @@
 			this.btnWhere.UseVisualStyleBackColor = true;
 			this.btnWhere.Click += new System.EventHandler(this.btnWhere_Click);
 			// 
+			// btnOrderBy
+			// 
+			this.btnOrderBy.Location = new System.Drawing.Point(536, 124);
+			this.btnOrderBy.Name = "btnOrderBy";
+			this.btnOrderBy.Size = new System.Drawing.Size(141, 31);
+			this.btnOrderBy.TabIndex = 4;
+			this.btnOrderBy.Text = "Order By";
+			this.btnOrderBy.UseVisualStyleBackColor = true;
+			this.btnOrderBy.Click += new System.EventHandler(this.btnOrderBy_Click);
+			// 
+			// btnGroupBy
+			// 
+			this.btnGroupBy.Location = new System.Drawing.Point(536, 161);
+			this.btnGroupBy.Name = "btnGroupBy";
+			this.btnGroupBy.Size = new System.Drawing.Size(141, 31);
+			this.btnGroupBy.TabIndex = 5;
+			this.btnGroupBy.Text = "Group By";
+			this.btnGroupBy.UseVisualStyleBackColor = true;
+			this.btnGroupBy.Click += new System.EventHandler(this.btnGroupBy_Click);
+			// 
+			// btnAgregacao
+			// 
+			this.btnAgregacao.Location = new System.Drawing.Point(536, 198);
+			this.btnAgregacao.Name = "btnAgregacao";
+			this.btnAgregacao.Size = new System.Drawing.Size(141, 31);
+			this.btnAgregacao.TabIndex = 6;
+			this.btnAgregacao.Text = "Operadores de Agregação";
+			this.btnAgregacao.UseVisualStyleBackColor = true;
+			this.btnAgregacao.Click += new System.EventHandler(this.btnAgregacao_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(689, 450);
+			this.Controls.Add(this.btnAgregacao);
+			this.Controls.Add(this.btnGroupBy);
+			this.Controls.Add(this.btnOrderBy);
 			this.Controls.Add(this.btnWhere);
 			this.Controls.Add(this.btnExecutar);
 			this.Controls.Add(this.txtConsulta);
@@ -94,6 +130,9 @@
 		private System.Windows.Forms.TextBox txtConsulta;
 		private System.Windows.Forms.Button btnExecutar;
 		private System.Windows.Forms.Button btnWhere;
+		private System.Windows.Forms.Button btnOrderBy;
+		private System.Windows.Forms.Button btnGroupBy;
+		private System.Windows.Forms.Button btnAgregacao;
 	}
 }
 
