@@ -35,6 +35,8 @@
 			this.btnOrderBy = new System.Windows.Forms.Button();
 			this.btnGroupBy = new System.Windows.Forms.Button();
 			this.btnAgregacao = new System.Windows.Forms.Button();
+			this.btnOperadoresDeElementos = new System.Windows.Forms.Button();
+			this.btnLinqLambda = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lista
@@ -105,11 +107,33 @@
 			this.btnAgregacao.UseVisualStyleBackColor = true;
 			this.btnAgregacao.Click += new System.EventHandler(this.btnAgregacao_Click);
 			// 
+			// btnOperadoresDeElementos
+			// 
+			this.btnOperadoresDeElementos.Location = new System.Drawing.Point(536, 235);
+			this.btnOperadoresDeElementos.Name = "btnOperadoresDeElementos";
+			this.btnOperadoresDeElementos.Size = new System.Drawing.Size(141, 31);
+			this.btnOperadoresDeElementos.TabIndex = 7;
+			this.btnOperadoresDeElementos.Text = "Operadores de Elementos";
+			this.btnOperadoresDeElementos.UseVisualStyleBackColor = true;
+			this.btnOperadoresDeElementos.Click += new System.EventHandler(this.btnOperadoresDeElementos_Click);
+			// 
+			// btnLinqLambda
+			// 
+			this.btnLinqLambda.Location = new System.Drawing.Point(536, 272);
+			this.btnLinqLambda.Name = "btnLinqLambda";
+			this.btnLinqLambda.Size = new System.Drawing.Size(141, 31);
+			this.btnLinqLambda.TabIndex = 8;
+			this.btnLinqLambda.Text = "Linq Lambda";
+			this.btnLinqLambda.UseVisualStyleBackColor = true;
+			this.btnLinqLambda.Click += new System.EventHandler(this.btnLinqLambda_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(689, 450);
+			this.Controls.Add(this.btnLinqLambda);
+			this.Controls.Add(this.btnOperadoresDeElementos);
 			this.Controls.Add(this.btnAgregacao);
 			this.Controls.Add(this.btnGroupBy);
 			this.Controls.Add(this.btnOrderBy);
@@ -133,6 +157,8 @@
 		private System.Windows.Forms.Button btnOrderBy;
 		private System.Windows.Forms.Button btnGroupBy;
 		private System.Windows.Forms.Button btnAgregacao;
+		private System.Windows.Forms.Button btnOperadoresDeElementos;
+		private System.Windows.Forms.Button btnLinqLambda;
 	}
 }
 

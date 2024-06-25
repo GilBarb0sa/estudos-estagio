@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -43,7 +42,7 @@ namespace LINQ1
 
 			#region Lista Números
 			lista_numeros = new List<int>();
-			lista_numeros.Add(0);
+			lista_numeros.Add(1);
 			lista_numeros.Add(2);
 			lista_numeros.Add(8);
 			lista_numeros.Add(4);
@@ -248,6 +247,51 @@ namespace LINQ1
 
 			});
 			lista.Items.Add(menorNome + " é o menor nome da lista.");
+		}
+
+		private void btnOperadoresDeElementos_Click(object sender, EventArgs e)
+		{
+			lista.Items.Clear();
+
+			int primeiro = lista_numeros.FirstOrDefault();  //Apresenta o primeiro numero da lista
+			lista.Items.Add(primeiro);
+
+			int ultimo = lista_numeros.LastOrDefault(); //Apresenta o ultimo numero da lista
+			lista.Items.Add(ultimo);
+
+			int elemento = lista_numeros.ElementAt(3);  //Apresenta o numero na posição 3
+			lista.Items.Add(elemento);
+
+			var consulta = from num in lista_numeros where num > 100 select num;  //Faz uma busca se na lista tem o numero senão apresenta um numero padrão, 0!
+			int numero = consulta.FirstOrDefault();
+			lista.Items.Add(numero);
+		}
+
+		private void btnLinqLambda_Click(object sender, EventArgs e)
+		{
+			//var cons1 = from nome in lista_nomes select nome;  //Consulta comum
+			//var cons1 = lista_nomes.Select(nome => nome);  //nome da lista de nomes retorna o nome, usando operação lambda
+			//lista.Items.AddRange(cons1.ToArray());
+
+			//var cons2 = from nome in lista_nomes where nome.StartsWith("G") select nome;
+			//var cons2 = lista_nomes.Where((nome) => nome.StartsWith("G"));  //consulta com o metodo where junto lambda.
+			//lista.Items.AddRange(cons2.ToArray());
+
+			//var cons3 = from nome in lista_nomes orderby nome select nome;
+			//var cons3 = lista_nomes.OrderByDescending(nome => nome);  //Faz uma consulta com ordenação do nome junto com operação lambda
+			//lista.Items.AddRange(cons3.ToArray());
+
+			//var cons4 = from estado in lista_estados group estado by estado.Value;  //agrupa a lista de estados pelo value que é o pais nesta lista
+			var cons4 = lista_estados.GroupBy(estado => estado.Value);  //Com operador lambda			
+			foreach( var grupo in cons4)
+			{
+				lista.Items.Add(grupo.Key);  //chave do pais
+				foreach(var estado in grupo)
+				{
+					lista.Items.Add("     " + estado.Key); //chave para estados
+				}
+			}
+
 		}
 	}
 }
