@@ -112,21 +112,83 @@ namespace GDIPlus
 
 			#region Curvas
 
-			Pen lapis = new Pen(Color.Black, 5);
-			Point[] pontos =
-			{
-				new Point(100, 50),
-				new Point(125, 75),
-				new Point(150, 100),
-				new Point(125, 125),
-				new Point(100, 150),
-				new Point(75, 125),
-				new Point(100, 50)
-			};
+			//Pen lapis = new Pen(Color.Black, 5);
+			//Point[] pontos =
+			//{
+			//	new Point(100, 50),
+			//	new Point(125, 75),
+			//	new Point(150, 100),
+			//	new Point(125, 125),
+			//	new Point(100, 150),
+			//	new Point(75, 125),
+			//	new Point(100, 50)
+			//};
 
-			//desenhador.DrawCurve(lapis, pontos, 1f);
-			//desenhador.DrawClosedCurve(lapis, pontos, 1f,FillMode.Alternate);
-			desenhador.FillClosedCurve(Brushes.Yellow, pontos, FillMode.Winding,1.5f);
+			////desenhador.DrawCurve(lapis, pontos, 1f);
+			////desenhador.DrawClosedCurve(lapis, pontos, 1f,FillMode.Alternate);
+			//desenhador.FillClosedCurve(Brushes.Yellow, pontos, FillMode.Winding,1.5f);
+
+			#endregion
+
+			#region Arcos
+
+			//Pen lapis = new Pen(Color.Black, 5);
+			//Rectangle rect = new Rectangle(100, 100, 300, 250);
+
+			//desenhador.DrawRectangle(lapis, rect);
+			//desenhador.DrawArc(lapis, rect, 270f, 90f);
+
+			#endregion
+
+			#region Bezier
+
+			//Pen lapis = new Pen(Color.Black, 5);
+			//Point p1 = new Point(50, 300);
+			//Point p2 = new Point(200, 400);
+			//Point p3 = new Point(300, 10);
+			//Point p4 = new Point(500, 100);
+
+			////desenhador.DrawBezier(lapis, p1, p2, p3, p4);
+
+			//Point[] pontos =
+			//{
+			//	new Point(50,300),  //inicio
+			//	new Point(150, 350),
+			//	new Point(300, 100),
+			//	new Point(400, 150), //meio
+			//	new Point(500, 400),
+			//	new Point(550, 10),
+			//	new Point(600, 100)  //fim
+			//};
+
+			//desenhador.DrawBeziers(lapis, pontos);
+
+			#endregion
+
+			#region PIE
+
+			//Pen lapis = new Pen(Color.Black, 4);
+			//Rectangle rect = new Rectangle(50, 50, 300, 300);
+
+			////desenhador.DrawPie(lapis, rect, 0, 90);
+
+			//desenhador.FillPie(Brushes.Red, rect, 0, 315);
+			//desenhador.DrawRectangle(lapis, rect);
+
+			#endregion
+
+			#region Path
+
+
+			Pen lapis = new Pen(Color.Black, 4);
+			GraphicsPath graficsPath = new GraphicsPath(FillMode.Winding);
+
+			graficsPath.AddEllipse(new RectangleF(10, 10, 100, 150));
+			graficsPath.AddEllipse(new RectangleF(50, 10, 100, 150));
+			graficsPath.AddRectangle(new RectangleF(150, 50, 150, 100));
+
+			//desenhador.DrawPath(lapis, graficsPath);
+			desenhador.FillPath(Brushes.Red, graficsPath);
 
 			#endregion
 
