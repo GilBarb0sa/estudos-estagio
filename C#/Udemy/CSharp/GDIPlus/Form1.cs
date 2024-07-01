@@ -179,16 +179,51 @@ namespace GDIPlus
 
 			#region Path
 
+			//Pen lapis = new Pen(Color.Black, 4);
+			//GraphicsPath graficsPath = new GraphicsPath(FillMode.Winding);
 
-			Pen lapis = new Pen(Color.Black, 4);
-			GraphicsPath graficsPath = new GraphicsPath(FillMode.Winding);
+			//graficsPath.AddEllipse(new RectangleF(10, 10, 150, 150));
+			//graficsPath.AddEllipse(new RectangleF(200, 10, 150, 150));
+			//graficsPath.AddRectangle(new RectangleF(400, 50, 200, 200));
 
-			graficsPath.AddEllipse(new RectangleF(10, 10, 100, 150));
-			graficsPath.AddEllipse(new RectangleF(50, 10, 100, 150));
-			graficsPath.AddRectangle(new RectangleF(150, 50, 150, 100));
+			////desenhador.DrawPath(lapis, graficsPath);
+			//desenhador.FillPath(Brushes.Red, graficsPath);
 
-			//desenhador.DrawPath(lapis, graficsPath);
-			desenhador.FillPath(Brushes.Red, graficsPath);
+			#endregion
+
+			#region Strings
+
+			//string nome = "Gilberto Barbosa da Silva Filho";
+			//string curso = "Análise e Desenvolvimento de Sistemas";
+			//Font letra = new Font("Arial", 28, FontStyle.Bold, GraphicsUnit.Point);
+			//Brush pincel = new LinearGradientBrush(new Rectangle(0,0,400,400), Color.Red, Color.Blue, 45); //Faz um efeito gradiente na letra
+			//Point ponto = new Point(50, 100);
+			//Rectangle rect = new Rectangle(10, 20, 650, 400);
+			//Rectangle rect2 = new Rectangle(10, 150, 650, 400); 
+			//StringFormat alinhamento = new StringFormat();
+
+			//alinhamento.Alignment = StringAlignment.Center;
+			//alinhamento.LineAlignment = StringAlignment.Near;
+
+			//desenhador.DrawRectangle(new Pen(Color.Black), rect);
+
+			//desenhador.DrawString( nome, letra, pincel, rect, alinhamento );
+			//desenhador.DrawString( curso, letra, pincel, rect2, alinhamento );
+
+			#endregion
+
+			#region
+
+			Image imgOrigem1 = Image.FromFile(Application.StartupPath + @"\imagens\castle.jpg");
+			Rectangle origem1 = new Rectangle(0, 0, imgOrigem1.Width, imgOrigem1.Height);
+			Rectangle destino1 = new Rectangle(0, 0, picture.Width, picture.Height);
+
+			Image imgOrigem2 = Image.FromFile(Application.StartupPath + @"\imagens\got.jpg");
+			Rectangle origem2 = new Rectangle(270, 220, 145, 385); //A imagem que será recortado
+			Rectangle destino2 = new Rectangle(50, 50, 145, 385);  //Onde será inserido na outra imagem
+
+			desenhador.DrawImage(imgOrigem1, destino1, origem1, GraphicsUnit.Pixel);
+			desenhador.DrawImage(imgOrigem2, destino2, origem2, GraphicsUnit.Pixel);
 
 			#endregion
 
