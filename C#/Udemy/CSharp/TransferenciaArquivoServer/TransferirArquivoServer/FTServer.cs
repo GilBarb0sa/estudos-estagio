@@ -50,11 +50,11 @@ namespace TransferirArquivoServer
                 byte[] dadosCliente = new byte[1024 * 50000];
 
                 int tamanhoBytesRecebidos = clienteSock.Receive(dadosCliente, dadosCliente.Length, 0);
-                int tamnhoNomeArquivo = BitConverter.ToInt32(dadosCliente, 0);
-                string nomeArquivo = Encoding.UTF8.GetString(dadosCliente, 4, tamnhoNomeArquivo);
+                int tamanhoNomeArquivo = BitConverter.ToInt32(dadosCliente, 0);
+                string nomeArquivo = Encoding.UTF8.GetString(dadosCliente, 4, tamanhoNomeArquivo);
 
                 BinaryWriter bWrite = new BinaryWriter(File.Open(PastaRecepcaoArquivos + nomeArquivo, FileMode.Append));
-                bWrite.Write(dadosCliente, 4 + tamnhoNomeArquivo, tamanhoBytesRecebidos - 4 - tamnhoNomeArquivo);
+                bWrite.Write(dadosCliente, 4 + tamanhoNomeArquivo, tamanhoBytesRecebidos - 4 - tamanhoNomeArquivo);
 
                 while (tamanhoBytesRecebidos > 0)
                 {
