@@ -170,7 +170,7 @@ namespace ChatServer
 			{
 				// Pega o IP
 				IPAddress ipaLocal = enderecoIP;
-				int portaLocal = portaLocal;
+				int portaLocal = portaHost;
 
 				//Cira um objeto TCP listener usando o IP do servidor e porta definidas
 				tlsCliente = new TcpListener(ipaLocal,portaLocal);
