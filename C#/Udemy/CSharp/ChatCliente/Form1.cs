@@ -138,26 +138,75 @@ namespace ChatCliente
 				//Sai do método
 				return;
 			}
+
+			//Enquanto estiver conectado le as linhas que estão chegando do servidor
+			while(Conectado)
+			{
+				//exibe mensagens no textbox
+				this.Invoke(new AtualizaLogCallBack(this.AtualizaLog), new object[] { strReceptor.ReadLine() });
+			}
 		}
 
 		private void AtualizaLog(string strMensagem)
 		{
-
+			//Anexa texto ao final de cada linha
+			txtLog.AppendText(strMensagem + "\r\n");
 		}
 
 		private void EnviaMensagem()
 		{
-
+			//Envia a mensagem para o servidor
+			if(txtMensagem.Lines.Length >= 1)
+			{
+				stwEnviador.WriteLine(txtMensagem.Text);
+				stwEnviador.Flush();
+				txtMensagem.Lines = null;
+			}
 		}
 
 		private void FechaConexao(string Motivo)
 		{
+			//Fecha a conexão com o servdiro
+			//Mostra o motivo porque a conexão encerrou
+			txtLog.AppendText(Motivo + "\r\n");
+			//habilita e desabilita os constroles apropriados no formulario
+			txtServidorIP.Enabled = true;
+			numPortaHost.Enabled = true;
+			txtUsuario.Enabled = true;
+			txtMensagem.Enabled = false;
+			btnEnviar.Enabled = false;
+			btnConectar.ForeColor = Color.Green;
+			btnConectar.Text = "Conectar";
 
+			//Fecha os objetos
+			Conectado = false;
+			stwEnviador.Close();
+			strReceptor.Close();
+			tcpServidor.Close();
+
+			labelStatus.Invoke(new Action(() =>
+			{
+				labelStatus.ForeColor = Color.Green;
+				labelStatus.Text = $"Desconectado do Servidor de chat {enderecoIP}:{portaHost}";
+			}));
 		}
 
 		public void OnApplicationExit(object sender, EventArgs e)
 		{
+			if(Conectado)
+			{
+				//Fecha as conexão, streams, etc..
+				Conectado = false;
+				stwEnviador.Close();
+				strReceptor.Close();
+				tcpServidor.Close();
 
+				labelStatus.Invoke(new Action(() =>
+				{
+					labelStatus.ForeColor = Color.Green;
+					labelStatus.Text = $"Desconectado do Servidor de chat {enderecoIP}:{portaHost}";
+				}));
+			}
 		}
 	}
 }
