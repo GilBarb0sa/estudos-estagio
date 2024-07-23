@@ -250,5 +250,98 @@ namespace CriptoFile
 		}
 
 		//Metódo para descriptografar um arquivo
+		public static string DecryptFile(string inFile)
+		{
+			//Criar instância de Aes descriptografia simétrica dos dados
+			Aes aes = Aes.Create();
+
+			//Crie matrizes de bytes para obter o comprimento da chave criptografada e IV.
+			//Esses valores foram armazenados como 4 bytes cada no início do pacote criptografado
+			byte[] LenK = new byte[4];
+			byte[] LenIV = new byte[4];
+
+			//Construir o nome do arquivo para o arquivo descriptografado.
+			string outFile = DecrFolder + inFile.Substring(0, inFile.LastIndexOf("."));
+
+			try
+			{
+				//Use objetos FileStream para ler o criptografado (inFs) e salve o arquivo descriptografado (outFS).
+				using(FileStream inFs = new FileStream(EncrFolder + inFile, FileMode.Open))
+				{
+					inFs.Seek(0, SeekOrigin.Begin);
+					inFs.Seek(0, SeekOrigin.Begin);
+					inFs.Read(LenK, 0, 3);
+					inFs.Seek(4, SeekOrigin.Begin);
+					inFs.Read(LenIV, 0, 3);
+
+					//Converta os comprimentos em valores inteiros.
+					int lenK = BitConverter.ToInt32(LenK, 0);
+					int lenIV = BitConverter.ToInt32(LenIV, 0);
+
+					//Determine a posição inicial do texto cifrado(startC) e seu comprimento(lenS).
+					int startC = lenK + lenIV + 8;
+					int lenC = (int)inFs.Length - startC;
+
+					//Crie as matrizes de bytes para a chave Aes criptografada, o IV e o texto cifrado
+					byte[] KeyEncrypted = new byte[lenK];
+					byte[] IV = new byte[lenIV];
+
+					//Extraia a chave e IV começando do índice 8 após os valores de comprimento.
+					inFs.Seek(8, SeekOrigin.Begin);
+					inFs.Read(KeyEncrypted, 0, lenK);
+					inFs.Seek(8 + lenK, SeekOrigin.Begin);
+					inFs.Read(IV, 0, lenIV);
+
+					if(!Directory.Exists(DecrFolder))
+					{
+						Directory.CreateDirectory(DecrFolder);
+					}
+
+					//Use RSACryptoServiceProvider para descriptografar a chave AES.
+					byte[] KeyDecrypted = rsa.Decrypt(KeyEncrypted, false);
+
+					//Descriptografe a chave.
+					ICryptoTransform transform = aes.CreateDecryptor(KeyDecrypted, IV);
+
+					//Descriptografar o texto cifrado do FileStream do arquivo(inFS) criptografado
+					//no FileStream para o arquivo descriptografado(outFS).
+					using (FileStream outFs = new FileStream(outFile, FileMode.Create))
+					{
+						int count = 0;
+						int offset = 0;
+
+						//blockSizeBytes pode ter qualquer tamanho arbitrário.
+						int blockSizeBytes = aes.BlockSize / 8;
+						byte[] data = new byte[blockSizeBytes];
+
+						//Ao descriptografar um pedaço de cada vez
+						//Você pode economizar memória e acomodar arquivos grandes.
+
+						//Comece no início do texto cifrado.
+						inFs.Seek(startC, SeekOrigin.Begin);
+						using (CryptoStream outStreamDecrypted = new CryptoStream(outFs, transform, CryptoStreamMode.Write))
+						{
+							do
+							{
+								count = inFs.Read(data, 0, blockSizeBytes);
+								offset += count;
+								outStreamDecrypted.Write(data, 0, count);
+							} while (count > 0);
+							
+							outStreamDecrypted.FlushFinalBlock();
+							outStreamDecrypted.Close();
+						}
+						outFs.Close();
+					}
+					inFs.Close();
+				}
+			}
+			catch (Exception ex)
+			{
+				return ex.Message
+			}
+
+			return $"Arquivo descriptografado. \n Origem: {inFile} \n Destino: {outFile}";
+		}
 	}
 }
