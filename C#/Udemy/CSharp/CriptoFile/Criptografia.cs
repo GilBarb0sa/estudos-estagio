@@ -232,6 +232,7 @@ namespace CriptoFile
 								count = inFs.Read(data, 0, blockSizeBytes);
 								offset += count;
 								outStreamEncrypted.Write(data, 0, count);
+								bytesRead += blockSizeBytes;
 							} while (count > 0);
 							inFs.Close();
 						}
@@ -239,11 +240,12 @@ namespace CriptoFile
 						outStreamEncrypted.Close();
 					}
 					outFs.Close();
+					File.Delete(inFile);
 				}
 			}
 			catch(Exception ex)
 			{
-				return ex.Message
+				return ex.Message;
 			}
 
 			return $"Arquivo criptografado.\n Origem: {inFile}\n Destino: {outFile}";
@@ -338,10 +340,12 @@ namespace CriptoFile
 			}
 			catch (Exception ex)
 			{
-				return ex.Message
+				return ex.Message;
 			}
 
 			return $"Arquivo descriptografado. \n Origem: {inFile} \n Destino: {outFile}";
+
+			
 		}
 	}
 }

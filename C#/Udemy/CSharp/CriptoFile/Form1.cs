@@ -54,7 +54,7 @@ namespace CriptoFile
 			{
 				//Mostra uma caixa de dialogo para escolher um arquivo para criptografar.
 				OpenFileDialog dialog = new OpenFileDialog();
-				dialog.InitialDirectory = Criptografia.SrcFolder;
+				dialog.InitialDirectory = Criptografia.EncrFolder;
 				if (dialog.ShowDialog() == DialogResult.OK)
 				{
 					string fName = dialog.FileName;
